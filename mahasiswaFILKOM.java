@@ -25,7 +25,6 @@ public class mahasiswaFILKOM extends manusia {
         } else if (kode == '7') {
             prodi = "Teknologi Informasi";
         }
-
         return prodi + ", 20" + nim.substring(0, 2);
     }
 
